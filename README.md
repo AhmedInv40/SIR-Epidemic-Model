@@ -6,4 +6,13 @@ R0 Analysis,
 Herd Immunity,
 Numerical Methods,
 Simulations,
-Vaccination Effects
+Vaccination Effects.
+I am using numerical solution of the differential equations using scipy.integrate.odeint.
+Derivation and computation of the basic reproduction number, threshold calculations for different disease.
+The SIR model is defined by three coupled differential equations: 
+dS/dt = -βSI/N
+dI/dt = βSI/N - γI  
+dR/dt = γI
+Requirements: numpy, matplotlib, scipy
+
+
